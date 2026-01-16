@@ -100,6 +100,28 @@ button:hover {
         width: 100%;
     }
 }
+.admission-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.admission-table th, .admission-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.admission-table th {
+    background-color: #1a237e;
+    color: white;
+}
+
+.admission-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
 
 
 
