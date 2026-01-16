@@ -24,6 +24,20 @@ h3 {
     background-color: #1a237e;
     padding: 12px;
 }
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
 
 .navbar a {
     color: white;
@@ -86,5 +100,6 @@ button:hover {
         width: 100%;
     }
 }
+
 
 
