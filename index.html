@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Presidency University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- College Name -->
+    <h1>Presidency University</h1>
+    <h3>Bengaluru, Karnataka</h3>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Schools</a>
+        <a href="#">Admissions</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="section">
+        <h2>About Presidency University</h2>
+        <p>
+            Presidency University, Bengaluru is a private university established with the vision
+            of providing world-class education and fostering innovation, research, and leadership.
+        </p>
+    </div>
+    
+<button id="welcomeBtn">Click Me</button>
+<p id="welcomeText"></p>
+
+
+
+    <!-- Schools Section -->
+    <div class="section">
+        <h2>Schools</h2>
+        <ul>
+            <li>School of Engineering</li>
+            <li>School of Computer Science</li>
+            <li>School of Law</li>
+            <li>School of Management</li>
+            <li>School of Design</li>
+            <li>School of Liberal Arts</li>
+        </ul>
+    </div>
+
+    <div class="section">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+        <label>Name:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email"><br><br>
+
+        <label>Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="formError" style="color:red;"></p>
+    <p id="formSuccess" style="color:green;"></p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
